@@ -1,0 +1,20 @@
+.contenedor{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    background-color: aquamarine;
+    border: 2px dotted green;
+}
+
+a:hover{
+    color: red;
+    background-color: blue;
+}
